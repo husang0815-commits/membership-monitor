@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { classifyScreenshotResult } from "../screenshot-utils.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
@@ -46,6 +47,15 @@ const page = await browser.newPage({
 
 const results = [];
 
+async function fileExists(filePath) {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 for (const target of targets) {
   const outputPath = path.join(root, target.imageUrl);
   await fs.mkdir(path.dirname(outputPath), { recursive: true });
@@ -56,7 +66,8 @@ for (const target of targets) {
     await page.screenshot({ path: outputPath, fullPage: false });
     results.push({ id: target.id, ok: true, url: target.url, output: target.imageUrl });
   } catch (error) {
-    results.push({ id: target.id, ok: false, url: target.url, error: error.message });
+    const failedResult = { id: target.id, ok: false, url: target.url, output: target.imageUrl, error: error.message };
+    results.push(classifyScreenshotResult(failedResult, await fileExists(outputPath)));
   }
 }
 
