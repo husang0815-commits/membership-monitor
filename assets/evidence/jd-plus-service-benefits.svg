@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">京东 PLUS 服务权益证据图</title>
+  <desc id="desc">截图式视觉资产，展示京东 PLUS 服务权益。</desc>
+  <rect width="960" height="540" fill="#fff1f2"/>
+  <rect x="58" y="48" width="844" height="444" rx="24" fill="#ffffff"/>
+  <rect x="58" y="48" width="844" height="96" rx="24" fill="#fecaca"/>
+  <text x="92" y="109" font-family="Microsoft YaHei, Arial" font-size="36" font-weight="700" fill="#7f1d1d">京东 PLUS</text>
+  <text x="92" y="188" font-family="Microsoft YaHei, Arial" font-size="25" font-weight="700" fill="#111827">从省钱到省心的服务权益</text>
+  <rect x="92" y="236" width="776" height="62" rx="14" fill="#f8fafc"/>
+  <rect x="92" y="318" width="238" height="98" rx="18" fill="#fee2e2"/>
+  <rect x="360" y="318" width="238" height="98" rx="18" fill="#f1f5f9"/>
+  <rect x="628" y="318" width="238" height="98" rx="18" fill="#fff7ed"/>
+  <text x="124" y="273" font-family="Microsoft YaHei, Arial" font-size="19" fill="#475569">免邮、售后、家政洗车、寄快递等权益被集中展示。</text>
+  <text x="154" y="376" font-family="Microsoft YaHei, Arial" font-size="23" font-weight="700" fill="#b91c1c">无限免邮</text>
+  <text x="421" y="376" font-family="Microsoft YaHei, Arial" font-size="23" font-weight="700" fill="#334155">售后保障</text>
+  <text x="690" y="376" font-family="Microsoft YaHei, Arial" font-size="23" font-weight="700" fill="#c2410c">生活服务</text>
+  <text x="92" y="456" font-family="Microsoft YaHei, Arial" font-size="17" fill="#64748b">示意截图：强化服务型续费理由</text>
+</svg>

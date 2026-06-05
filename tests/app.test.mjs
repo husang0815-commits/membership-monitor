@@ -5,6 +5,7 @@ import {
   filterByProduct,
   filterByTag,
   getSortedUpdates,
+  renderEvidence,
   selectUpdateById
 } from "../app.js";
 
@@ -76,4 +77,17 @@ test("credibility weights are stable for all credibility states", () => {
   assert.equal(credibilityWeight("medium"), 2);
   assert.equal(credibilityWeight("pending"), 1);
   assert.equal(credibilityWeight("unknown"), 0);
+});
+
+test("renderEvidence renders an image when an update has imageUrl", () => {
+  const html = renderEvidence({
+    productName: "示例会员",
+    evidenceLabel: "会员页截图",
+    visualTone: "blue",
+    imageUrl: "assets/evidence/demo.svg"
+  });
+
+  assert.match(html, /<img/);
+  assert.match(html, /src="assets\/evidence\/demo\.svg"/);
+  assert.match(html, /alt="会员页截图"/);
 });

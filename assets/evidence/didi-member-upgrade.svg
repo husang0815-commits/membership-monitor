@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">滴滴会员升级证据图</title>
+  <desc id="desc">截图式视觉资产，展示成长值、跨场景权益和会员等级升级。</desc>
+  <rect width="960" height="540" fill="#eef6ff"/>
+  <rect x="56" y="48" width="848" height="444" rx="24" fill="#ffffff"/>
+  <rect x="56" y="48" width="848" height="92" rx="24" fill="#dbeafe"/>
+  <text x="92" y="105" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700" fill="#1e3a8a">滴滴会员中心</text>
+  <text x="92" y="184" font-family="Microsoft YaHei, Arial" font-size="24" font-weight="700" fill="#0f172a">成长值替代里程值</text>
+  <text x="92" y="224" font-family="Microsoft YaHei, Arial" font-size="18" fill="#475569">定级周期延长到 12 个月，权益覆盖网约车、代驾、顺风车与海外出行。</text>
+  <rect x="92" y="268" width="176" height="88" rx="16" fill="#eff6ff"/>
+  <rect x="294" y="268" width="176" height="88" rx="16" fill="#f0fdf4"/>
+  <rect x="496" y="268" width="176" height="88" rx="16" fill="#fff7ed"/>
+  <rect x="698" y="268" width="126" height="88" rx="16" fill="#f8fafc"/>
+  <text x="120" y="318" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700" fill="#2563eb">等级成长</text>
+  <text x="324" y="318" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700" fill="#15803d">生日礼</text>
+  <text x="526" y="318" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700" fill="#c2410c">联名权益</text>
+  <text x="730" y="318" font-family="Microsoft YaHei, Arial" font-size="20" font-weight="700" fill="#475569">待观察</text>
+  <rect x="92" y="400" width="710" height="18" rx="9" fill="#dbeafe"/>
+  <rect x="92" y="400" width="492" height="18" rx="9" fill="#2563eb"/>
+  <text x="92" y="454" font-family="Microsoft YaHei, Arial" font-size="17" fill="#64748b">示意截图：正式版本可替换为真实会员页截图</text>
+</svg>

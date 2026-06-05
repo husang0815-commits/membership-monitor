@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">星巴克联合会员证据图</title>
+  <desc id="desc">截图式视觉资产，展示星巴克联合会员权益。</desc>
+  <rect width="960" height="540" fill="#ecfdf5"/>
+  <rect x="56" y="48" width="848" height="444" rx="24" fill="#ffffff"/>
+  <rect x="56" y="48" width="848" height="96" rx="24" fill="#bbf7d0"/>
+  <text x="92" y="109" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700" fill="#14532d">星享俱乐部</text>
+  <text x="92" y="190" font-family="Microsoft YaHei, Arial" font-size="25" font-weight="700" fill="#111827">咖啡会员延展到酒旅场景</text>
+  <circle cx="218" cy="322" r="70" fill="#dcfce7"/>
+  <circle cx="480" cy="322" r="70" fill="#dbeafe"/>
+  <circle cx="742" cy="322" r="70" fill="#fef3c7"/>
+  <path d="M292 322h114" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M554 322h114" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+  <text x="174" y="330" font-family="Microsoft YaHei, Arial" font-size="23" font-weight="700" fill="#15803d">星享</text>
+  <text x="436" y="330" font-family="Microsoft YaHei, Arial" font-size="23" font-weight="700" fill="#2563eb">亚朵</text>
+  <text x="698" y="330" font-family="Microsoft YaHei, Arial" font-size="23" font-weight="700" fill="#92400e">飞猪</text>
+  <text x="92" y="438" font-family="Microsoft YaHei, Arial" font-size="18" fill="#475569">会员身份互认，强化生活方式场景和情绪价值。</text>
+</svg>

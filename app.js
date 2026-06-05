@@ -26,6 +26,7 @@ export const initialData = {
       sourceType: "官网/活动页 + 新闻",
       sourceStatus: "已核验",
       evidenceLabel: "会员中心/升级说明截图",
+      imageUrl: "assets/evidence/didi-member-upgrade.svg",
       visualTone: "blue",
       tags: ["增长留存", "等级成长", "跨场景权益"],
       sources: [{ name: "新华网", url: "https://www.news.cn/tech/20260602/d55a406eb6014ebba02fb48315f6c95c/c.html" }],
@@ -46,6 +47,7 @@ export const initialData = {
       sourceType: "会员页 + 新闻",
       sourceStatus: "已核验",
       evidenceLabel: "88VIP 权益图/生活服务入口",
+      imageUrl: "assets/evidence/88vip-life-benefits.svg",
       visualTone: "amber",
       tags: ["权益包重组", "联合会员", "生活方式会员"],
       sources: [
@@ -69,6 +71,7 @@ export const initialData = {
       sourceType: "官方说明 + 新闻",
       sourceStatus: "已核验",
       evidenceLabel: "PLUS 权益页/售后服务入口",
+      imageUrl: "assets/evidence/jd-plus-service-benefits.svg",
       visualTone: "rose",
       tags: ["服务权益", "续费价值", "权益包重组"],
       sources: [
@@ -92,6 +95,7 @@ export const initialData = {
       sourceType: "官方新闻 + 媒体",
       sourceStatus: "已核验",
       evidenceLabel: "星享/亚朵/飞猪联名权益图",
+      imageUrl: "assets/evidence/starbucks-travel-membership.svg",
       visualTone: "green",
       tags: ["联合会员", "跨场景权益", "身份认同"],
       sources: [
@@ -115,6 +119,7 @@ export const initialData = {
       sourceType: "新闻",
       sourceStatus: "已核验",
       evidenceLabel: "黑钻会籍卡面/返利规则",
+      imageUrl: "assets/evidence/costco-black-diamond.svg",
       visualTone: "violet",
       tags: ["高价值分层", "返利机制", "续费价值"],
       sources: [{ name: "宝安湾", url: "https://www.baoanone.com/content216522.html" }],
@@ -135,6 +140,7 @@ export const initialData = {
       sourceType: "社媒热度",
       sourceStatus: "待核验",
       evidenceLabel: "社媒截图/门店活动图",
+      imageUrl: "assets/evidence/hema-member-day-social.svg",
       visualTone: "mint",
       tags: ["社媒信号", "会员日", "到店复购"],
       sources: [{ name: "社媒公开讨论", url: "#" }],
@@ -155,6 +161,7 @@ export const initialData = {
       sourceType: "新闻 + 社媒争议",
       sourceStatus: "需持续观察",
       evidenceLabel: "投诉页面/权益限制说明",
+      imageUrl: "assets/evidence/tencent-video-device-controversy.svg",
       visualTone: "red",
       tags: ["社媒争议", "权益限制", "分层付费"],
       sources: [{ name: "新浪财经", url: "https://finance.sina.com.cn/stock/relnews/hk/2026-05-20/doc-inhypaet6972438.shtml" }],
@@ -175,6 +182,7 @@ export const initialData = {
       sourceType: "官网 + 新闻",
       sourceStatus: "已核验",
       evidenceLabel: "麦麦会员权益/节气活动图",
+      imageUrl: "assets/evidence/mcdonalds-seasonal-membership.svg",
       visualTone: "yellow",
       tags: ["连续任务", "活动节奏", "高频复购"],
       sources: [
@@ -264,7 +272,16 @@ function sourceSummary() {
   );
 }
 
-function renderEvidence(update, size = "large") {
+export function renderEvidence(update, size = "large") {
+  if (update.imageUrl) {
+    return `
+      <figure class="evidence evidence-image evidence-${size}">
+        <img src="${update.imageUrl}" alt="${update.evidenceLabel}" loading="lazy">
+        <figcaption>${update.evidenceLabel}</figcaption>
+      </figure>
+    `;
+  }
+
   return `
     <div class="evidence evidence-${update.visualTone} evidence-${size}" aria-label="${update.evidenceLabel}">
       <span>${update.evidenceLabel}</span>
