@@ -84,10 +84,10 @@ test("renderEvidence renders an image when an update has imageUrl", () => {
     productName: "示例会员",
     evidenceLabel: "会员页截图",
     visualTone: "blue",
-    imageUrl: "assets/evidence/demo.svg"
+    imageUrl: "assets/screenshots/demo.png"
   });
 
   assert.match(html, /<img/);
-  assert.match(html, /src="assets\/evidence\/demo\.svg"/);
+  assert.match(html, /src="assets\/screenshots\/demo\.png"/);
   assert.match(html, /alt="会员页截图"/);
 });

@@ -27,6 +27,19 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install Playwright
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium
+
+      - name: Capture real source screenshots
+        run: node scripts/capture-screenshots.js --data data/live-data.json
+
       - name: Build static artifact
         run: node scripts/build-pages.js
 

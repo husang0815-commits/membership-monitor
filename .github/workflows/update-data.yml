@@ -20,11 +20,19 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Install Playwright
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium
+
       - name: Run daily data update
         run: node scripts/update-static-data.js
+
+      - name: Capture real source screenshots
+        run: node scripts/capture-screenshots.js --data data/live-data.json
 
       - name: Commit data changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update membership monitor data"
-          file_pattern: data/live-data.json data/source-watchlist.json
+          file_pattern: data/live-data.json data/source-watchlist.json assets/screenshots/*.png

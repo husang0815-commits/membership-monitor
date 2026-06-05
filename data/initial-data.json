@@ -26,7 +26,7 @@
       "sourceType": "官网/活动页 + 新闻",
       "sourceStatus": "已核验",
       "evidenceLabel": "会员中心/升级说明截图",
-      "imageUrl": "assets/evidence/didi-member-upgrade.svg",
+      "imageUrl": "assets/screenshots/didi-member-upgrade.png",
       "visualTone": "blue",
       "tags": ["增长留存", "等级成长", "跨场景权益"],
       "sources": [
@@ -49,7 +49,7 @@
       "sourceType": "会员页 + 新闻",
       "sourceStatus": "已核验",
       "evidenceLabel": "88VIP 权益图/生活服务入口",
-      "imageUrl": "assets/evidence/88vip-life-benefits.svg",
+      "imageUrl": "assets/screenshots/88vip-life-benefits.png",
       "visualTone": "amber",
       "tags": ["权益包重组", "联合会员", "生活方式会员"],
       "sources": [
@@ -73,7 +73,7 @@
       "sourceType": "官方说明 + 新闻",
       "sourceStatus": "已核验",
       "evidenceLabel": "PLUS 权益页/售后服务入口",
-      "imageUrl": "assets/evidence/jd-plus-service-benefits.svg",
+      "imageUrl": "assets/screenshots/jd-plus-service-benefits.png",
       "visualTone": "rose",
       "tags": ["服务权益", "续费价值", "权益包重组"],
       "sources": [
@@ -97,7 +97,7 @@
       "sourceType": "官方新闻 + 媒体",
       "sourceStatus": "已核验",
       "evidenceLabel": "星享/亚朵/飞猪联名权益图",
-      "imageUrl": "assets/evidence/starbucks-travel-membership.svg",
+      "imageUrl": "assets/screenshots/starbucks-travel-membership.png",
       "visualTone": "green",
       "tags": ["联合会员", "跨场景权益", "身份认同"],
       "sources": [
@@ -121,7 +121,7 @@
       "sourceType": "新闻",
       "sourceStatus": "已核验",
       "evidenceLabel": "黑钻会籍卡面/返利规则",
-      "imageUrl": "assets/evidence/costco-black-diamond.svg",
+      "imageUrl": "assets/screenshots/costco-black-diamond.png",
       "visualTone": "violet",
       "tags": ["高价值分层", "返利机制", "续费价值"],
       "sources": [
@@ -144,11 +144,11 @@
       "sourceType": "社媒热度",
       "sourceStatus": "待核验",
       "evidenceLabel": "社媒截图/门店活动图",
-      "imageUrl": "assets/evidence/hema-member-day-social.svg",
+      "imageUrl": "assets/screenshots/hema-member-day-social.png",
       "visualTone": "mint",
       "tags": ["社媒信号", "会员日", "到店复购"],
       "sources": [
-        { "name": "社媒公开讨论", "url": "#" }
+        { "name": "盒马X会员权益细则", "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_alibaba_hema/suit_bu1_alibaba_hema202101301335_95554.html" }
       ],
       "watchPoints": ["需要官网或门店物料核验", "社媒讨论是否代表真实活动规模"]
     },
@@ -167,7 +167,7 @@
       "sourceType": "新闻 + 社媒争议",
       "sourceStatus": "需持续观察",
       "evidenceLabel": "投诉页面/权益限制说明",
-      "imageUrl": "assets/evidence/tencent-video-device-controversy.svg",
+      "imageUrl": "assets/screenshots/tencent-video-device-controversy.png",
       "visualTone": "red",
       "tags": ["社媒争议", "权益限制", "分层付费"],
       "sources": [
@@ -190,7 +190,7 @@
       "sourceType": "官网 + 新闻",
       "sourceStatus": "已核验",
       "evidenceLabel": "麦麦会员权益/节气活动图",
-      "imageUrl": "assets/evidence/mcdonalds-seasonal-membership.svg",
+      "imageUrl": "assets/screenshots/mcdonalds-seasonal-membership.png",
       "visualTone": "yellow",
       "tags": ["连续任务", "活动节奏", "高频复购"],
       "sources": [
