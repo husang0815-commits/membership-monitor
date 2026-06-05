@@ -1,0 +1,6 @@
+.superpowers/
+dist/
+server.log
+server.err.log
+*.log
+node_modules/

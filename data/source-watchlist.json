@@ -1,0 +1,62 @@
+[
+  {
+    "id": "didi-member-official",
+    "name": "滴滴会员官方/新闻监控",
+    "productId": "didi",
+    "productName": "滴滴会员",
+    "industry": "出行",
+    "sourceType": "新闻",
+    "url": "https://www.news.cn/tech/20260602/d55a406eb6014ebba02fb48315f6c95c/c.html",
+    "tags": [
+      "增长留存",
+      "等级成长",
+      "跨场景权益"
+    ],
+    "userScaleScore": 92,
+    "defaultHeatScore": 82,
+    "visualTone": "blue",
+    "evidenceLabel": "会员中心/升级说明截图",
+    "lastHash": "aec8c1a173a1004563aaf1e95980e359e382f702b847b462000d9426cde2950d",
+    "lastCheckedAt": "2026-06-05T01:12:04.535Z"
+  },
+  {
+    "id": "jd-plus-official",
+    "name": "京东 PLUS 官方权益页",
+    "productId": "jd-plus",
+    "productName": "京东 PLUS",
+    "industry": "电商",
+    "sourceType": "官方说明",
+    "url": "https://wqs.jd.com/my/vipplus_introduce.shtml",
+    "tags": [
+      "服务权益",
+      "续费价值",
+      "权益包重组"
+    ],
+    "userScaleScore": 96,
+    "defaultHeatScore": 78,
+    "visualTone": "rose",
+    "evidenceLabel": "PLUS 权益页/售后服务入口",
+    "lastHash": "b0a73ab031bbfe0b1f2f123249410a1f6d9a1685837afc16de863da3f497b756",
+    "lastCheckedAt": "2026-06-05T01:12:05.080Z"
+  },
+  {
+    "id": "starbucks-news",
+    "name": "星巴克中国会员新闻",
+    "productId": "starbucks",
+    "productName": "星巴克星享俱乐部",
+    "industry": "咖啡/餐饮",
+    "sourceType": "官网/活动页",
+    "url": "https://www.starbucks.com.cn/about/news/starbucks-yaduo-united-member/",
+    "tags": [
+      "联合会员",
+      "跨场景权益",
+      "身份认同"
+    ],
+    "userScaleScore": 94,
+    "defaultHeatScore": 76,
+    "visualTone": "green",
+    "evidenceLabel": "星享/亚朵/飞猪联名权益图",
+    "lastHash": "8af01e37108542fc0d4e545fa77cddabafbb9e9d253feccc2e6bfa3cd0571f18",
+    "lastCheckedAt": "2026-06-05T01:12:05.573Z"
+  }
+]

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>会员体系竞品监控</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Membership Intelligence</p>
+        <h1>会员体系竞品监控</h1>
+      </div>
+      <div class="date-pill">2026-06-04 洞察日报</div>
+    </header>
+
+    <main>
+      <section class="hero-section" aria-labelledby="today-title">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">今日重点</p>
+            <h2 id="today-title">先看最值得研究的会员动态</h2>
+          </div>
+          <div id="sort-controls" class="segmented" aria-label="排序方式"></div>
+        </div>
+
+        <div id="main-update"></div>
+        <div id="secondary-updates" class="secondary-grid"></div>
+      </section>
+
+      <section class="filter-section" aria-label="筛选">
+        <div>
+          <p class="section-kicker">产品筛选</p>
+          <div id="product-filters" class="chip-row"></div>
+        </div>
+        <div>
+          <p class="section-kicker">打法筛选</p>
+          <div id="tag-filters" class="chip-row"></div>
+        </div>
+      </section>
+
+      <section id="detail" class="detail-section" aria-labelledby="detail-title">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">点击卡片查看</p>
+            <h2 id="detail-title">动态详情</h2>
+          </div>
+        </div>
+        <div id="detail-panel"></div>
+      </section>
+
+      <section id="below-fold" class="below-fold" aria-label="今日摘要、待审核和来源分布"></section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
