@@ -27,6 +27,7 @@ export const initialData = {
       sourceStatus: "已核验",
       evidenceLabel: "会员中心/升级说明截图",
       imageUrl: "assets/screenshots/didi-member-upgrade.png",
+      screenshotHints: ["滴滴会员新升级", "等级更稳", "权益更多"],
       visualTone: "blue",
       tags: ["增长留存", "等级成长", "跨场景权益"],
       sources: [{ name: "新华网", url: "https://www.news.cn/tech/20260602/d55a406eb6014ebba02fb48315f6c95c/c.html" }],
@@ -48,6 +49,7 @@ export const initialData = {
       sourceStatus: "已核验",
       evidenceLabel: "88VIP 权益图/生活服务入口",
       imageUrl: "assets/screenshots/88vip-life-benefits.png",
+      screenshotHints: ["88VIP", "盒马", "饿了么", "飞猪", "高德"],
       visualTone: "amber",
       tags: ["权益包重组", "联合会员", "生活方式会员"],
       sources: [
@@ -72,6 +74,7 @@ export const initialData = {
       sourceStatus: "已核验",
       evidenceLabel: "PLUS 权益页/售后服务入口",
       imageUrl: "assets/screenshots/jd-plus-service-benefits.png",
+      screenshotHints: ["PLUS会员", "京东PLUS", "会员权益"],
       visualTone: "rose",
       tags: ["服务权益", "续费价值", "权益包重组"],
       sources: [
@@ -96,6 +99,7 @@ export const initialData = {
       sourceStatus: "已核验",
       evidenceLabel: "星享/亚朵/飞猪联名权益图",
       imageUrl: "assets/screenshots/starbucks-travel-membership.png",
+      screenshotHints: ["星享俱乐部", "亚朵", "联合会员"],
       visualTone: "green",
       tags: ["联合会员", "跨场景权益", "身份认同"],
       sources: [
@@ -120,6 +124,7 @@ export const initialData = {
       sourceStatus: "已核验",
       evidenceLabel: "黑钻会籍卡面/返利规则",
       imageUrl: "assets/screenshots/costco-black-diamond.png",
+      screenshotHints: ["黑钻会籍", "3%消费返利", "开市客"],
       visualTone: "violet",
       tags: ["高价值分层", "返利机制", "续费价值"],
       sources: [{ name: "宝安湾", url: "https://www.baoanone.com/content216522.html" }],
@@ -141,6 +146,7 @@ export const initialData = {
       sourceStatus: "待核验",
       evidenceLabel: "社媒截图/门店活动图",
       imageUrl: "assets/screenshots/hema-member-day-social.png",
+      screenshotHints: ["盒马X会员", "会员权益", "X会员"],
       visualTone: "mint",
       tags: ["社媒信号", "会员日", "到店复购"],
       sources: [{ name: "盒马X会员权益细则", url: "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_alibaba_hema/suit_bu1_alibaba_hema202101301335_95554.html" }],
@@ -162,6 +168,7 @@ export const initialData = {
       sourceStatus: "需持续观察",
       evidenceLabel: "投诉页面/权益限制说明",
       imageUrl: "assets/screenshots/tencent-video-device-controversy.png",
+      screenshotHints: ["腾讯视频", "VIP", "设备"],
       visualTone: "red",
       tags: ["社媒争议", "权益限制", "分层付费"],
       sources: [{ name: "新浪财经", url: "https://finance.sina.com.cn/stock/relnews/hk/2026-05-20/doc-inhypaet6972438.shtml" }],
@@ -183,6 +190,7 @@ export const initialData = {
       sourceStatus: "已核验",
       evidenceLabel: "麦麦会员权益/节气活动图",
       imageUrl: "assets/screenshots/mcdonalds-seasonal-membership.png",
+      screenshotHints: ["麦麦会员", "会员权益", "麦当劳"],
       visualTone: "yellow",
       tags: ["连续任务", "活动节奏", "高频复购"],
       sources: [
